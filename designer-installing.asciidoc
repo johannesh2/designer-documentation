@@ -13,12 +13,10 @@ layout: page
 You need to install the following to use Vaadin Designer:
 
 . Eclipse Luna SR2+ as described in
-<<dummy/../../framework/getting-started/getting-started-environment#getting-started.environment.eclipse,"Installing
-Eclipse IDE">>
+<<dummy/../../framework/installing/installing-eclipse#installing.eclipse,"Installing Eclipse IDE">>
 
 . Vaadin Plug-in for Eclipse as described in
-<<dummy/../../framework/getting-started/getting-started-eclipse#getting-started.eclipse,"Vaadin
-Plugin for Eclipse">>
+<<dummy/../../framework/installing/installing-eclipse#installing.eclipse.plugin,"Installing Vaadin Plugin for Eclipse">>
 
 . Vaadin Designer from link:http://vaadin.com/eclipse[vaadin.com/eclipse]
 
@@ -67,7 +65,3 @@ If you for any reason need to remove or change a valid license, it is located in
 If you want to remove Vaadin Designer from your Eclipse installation, go to
 "Help > Installation Details", select [guilabel]#Vaadin Designer# from the list,
 then click [guibutton]#Uninstall#.
-
-
-
-
