@@ -7,67 +7,115 @@ layout: page
 [[designer.installing]]
 = Installation
 
+Vaadin Designer is implemented as a plug-in for the popular Eclipse IDE.
+Assuming you have the Java Runtime Environment already, you need to go through the following steps to use Vaadin Designer:
+
+. <<designer.installing.eclipse>>
+. <<designer.installing.plugin>>
+. <<designer.installing.license>>
+
 [[designer.installing.eclipse]]
-== Installing Eclipse and Plug-Ins
+== Installing Eclipse
 
-You need to install the following to use Vaadin Designer:
+Eclipse comes in many flavors, but you need the _Eclipse IDE for Java EE Developers_.
+Download it from link:https://www.eclipse.org/downloads/index.php?show_instructions=TRUE"[eclipse.org/downloads].
+At the time of writing the latest version is 4.5.1 (Mars.1).
+Installation is easiest using the Eclipse installer.
+Just choose the one for your operating system from the page.
 
-. Eclipse Luna SR2+ as described in
-<<dummy/../../framework/getting-started/getting-started-environment#getting-started.environment.eclipse,"Installing
-Eclipse IDE">>
+For more detailed instructions for setting up the development environment, see <<dummy/../../framework/getting-started/getting-started-environment#getting-started.environment.eclipse,"Setting up the Development Environment">>.
 
-. Vaadin Plug-in for Eclipse as described in
-<<dummy/../../framework/getting-started/getting-started-eclipse#getting-started.eclipse,"Vaadin
-Plugin for Eclipse">>
+TIP: Vaadin Designer is compatible with Eclipse Luna (and later) available from link:http://www.eclipse.org/downloads[www.eclipse.org/downloads].
+We recommend choosing __Eclipse IDE for Java EE Developers__.
 
-. Vaadin Designer from link:http://vaadin.com/eclipse[vaadin.com/eclipse]
+CAUTION: If you're using an existing install of Eclipse Luna, please make sure it is up-to-date.
+Eclipse Luna versions prior to the SR2 version had a nasty bug that will cause problems for several plug-ins.
 
+[[designer.installing.plugin]]
+== Installing Vaadin Designer
 
-Vaadin Designer is compatible with Eclipse Luna (and later) available from
-link:http://www.eclipse.org/downloads[www.eclipse.org/downloads]. We recommend
-choosing __Eclipse IDE for Java EE Developers__.
+ifdef::web[]
+TIP: If you are familiar with Eclipse and installing plugins for it.
+See the <<designer.installing.plugin.quick>>.
 
-If you're using an existing install of Eclipse Luna, please make sure it is
-up-to-date. Eclipse Luna versions prior to the SR2 version had a nasty bug that
-will cause problems for several plug-ins.
+The following short video shows you how to install Vaadin Designer and how to create your first new design.
 
-Vaadin Designer is installed together with the Vaadin Plug-in for Eclipse, from
-the same Eclipse update-site. In Eclipse, do "Help > Install New Software",
-press [guibutton]#Add...# next to the [guilabel]#Work with select#, enter
-[literal]#++Vaadin++# as name and [uri]#http://vaadin.com/eclipse# as location.
+video::UPslNDDNfbs[youtube, width="640", height="360"]
+endif::web[]
 
-If you already have the Vaadin plug-in installed, just choose to Work with the
-Vaadin update site. Make sure the whole Vaadin category is selected (or at least
-Vaadin Designer), then click [guibutton]#Next# to review licensing information
-and finalize the install. Please restart Eclipse when prompted.
+=== Step-by-Step Installation Instructions
+
+. Start Eclipse and select "Help > Eclipse Marketplace..."
++
+ifdef::web[]
+image:img/designer-install-marketplace01.png[]
+endif::web[]
+
+. In the [guilabel]#Find# box write [literal]#++Vaadin++#.
+Search results should contain _Vaadin Plugin for Eclipse_ followed with a long version number.
+Click [guibutton]#Install#.
++
+image:img/designer-install-marketplace02.png[]
+. In the [guilabel]#Confirm Selected Features# window, make sure you have both [guilabel]#Vaadin Plug-in for Eclipse# and [guilabel]#Vaadin Designer for Eclipse# selected.
++
+ifdef::web[]
+image:img/designer-install-marketplace03.png[]
+endif::web[]
+. Review licenses and accept them, and finally click [guibutton]#Finish#.
++
+ifdef::web[]
+image:img/designer-install-marketplace04.png[]
+endif::web[]
+. The installer will download and install the required components.
+This may take a while.
+At some point, you might get a warning about unsigned content.
+Just click [guibutton]#OK#.
++
+ifdef::web[]
+image:img/designer-install-marketplace06.png[]
+endif::web[]
+. After the installation, you will get a prompt to restart Eclipse.
+Click [guibutton]#Yes#.
++
+ifdef::web[]
+image:img/designer-install-marketplace07.png[]
+endif::web[]
+
+Once installed, Vaadin Designer can be kept up-to-date by periodically running "Help > Check for Updates".
+
+ifdef::web[]
+[[designer.installing.plugin.quick]]
+=== Instructions for Those Familiar with Eclipse
+
+If you followed the previous step-by-step instructions, you can skip the following.
+
+. Choose "Help > Install New Software...""
+. Choose `https://vaadin.com/eclipse` from the dropdown or add it as a new repository if needed.
+. Make sure you select both [guilabel]#Vaadin Plug-in for Eclipse# and [guilabel]#Vaadin Designer for Eclipse#.
+. Click [guibutton]#Next# a few times when prompted, accept the terms, and click [guibutton]#Finish#.
 
 Once installed, Vaadin Designer can be kept up-to-date by periodically running
 "Help > Check for Updates".
+endif::web[]
 
+TIP: If you for some reason want to remove Vaadin Designer from your Eclipse installation, go to "Help > Installation Details", select [guilabel]#Vaadin Designer# from the list, then click [guibutton]#Uninstall#.
 
 [[designer.installing.license]]
-== License
+== Entering the License Key
 
-The first time you start the Vaadin Designer, it will ask for a license key. You
-can obtain a free trial-license, purchase a stand-alone perpetual license, or
-use the license included with your Pro Tools subscription. See
-<<dummy/../../framework/addons/addons-cval#addons.cval,"Installing Commercial
-Vaadin Add-on Licence">> for instructions for installing the license.
+The first time you create a new design or open an existing one, Vaadin Designer will ask you for a license key.
+You can obtain a free trial license, purchase a stand-alone perpetual license, or use the license included with your Pro Tools subscription.
+For a commercial or trial license, see link:https://vaadin.com/designer[vaadin.com/designer].
+Paste your license key to the text box and click [guilabel]#Apply#.
 
-Please note that a separate license key is required for each developer. If you
-choose not input any license (even trial), you will be unable to save your work.
+ifdef::web[]
+.Designer license prompt
+image::img/designer-license-box.png[Designer license prompt]
+endif::web[]
 
-If you for any reason need to remove or change a valid license, it is located in
-[filename]#~/.vaadin.designer.developer.license#.
+IMPORTANT: Please note that a separate license key is required for each developer.
+If you choose to not input any license (even trial), you will be unable to save your work.
 
+TIP: If you are interested in more detail how the commercial addon licenses are managed and e.g. how those are passed to CI systems, check out <<dummy/../../framework/addons/addons-cval#addons.cval,"Commercial Vaadin Add-on Licenses">>.
 
-[[designer.installing.uninstalling]]
-== Uninstalling
-
-If you want to remove Vaadin Designer from your Eclipse installation, go to
-"Help > Installation Details", select [guilabel]#Vaadin Designer# from the list,
-then click [guibutton]#Uninstall#.
-
-
-
-
+If you for any reason need to remove or change a valid license, it is located in a file called [filename]#.vaadin.designer.developer.license# in your home folder.
