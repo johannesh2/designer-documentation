@@ -23,7 +23,7 @@ At the time of writing the latest version is 4.5.1 (Mars.1).
 Installation is easiest using the Eclipse installer.
 Just choose the one for your operating system from the page.
 
-For more detailed instructions for setting up the development environment, see <<dummy/../../framework/getting-started/getting-started-environment#getting-started.environment.eclipse,"Setting up the Development Environment">>.
+For more detailed instructions for setting up the development environment, see <<dummy/../../framework/installing/installing-eclipse#installing.eclipse,"Installing Eclipse IDE">>.
 
 TIP: Vaadin Designer is compatible with Eclipse Luna (and later) available from link:http://www.eclipse.org/downloads[www.eclipse.org/downloads].
 We recommend choosing __Eclipse IDE for Java EE Developers__.
