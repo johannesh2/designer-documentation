@@ -8,11 +8,7 @@ layout: page
 = Installation
 
 Vaadin Designer is implemented as a plug-in for the popular Eclipse IDE.
-Assuming you have the Java Runtime Environment already, you need to go through the following steps to use Vaadin Designer:
-
-. <<designer.installing.eclipse>>
-. <<designer.installing.plugin>>
-. <<designer.installing.license>>
+Assuming you have the Java Runtime Environment already, you need to go through the following steps to take Vaadin Designer into use.
 
 [[designer.installing.eclipse]]
 == Installing Eclipse
@@ -23,7 +19,7 @@ At the time of writing the latest version is 4.5.1 (Mars.1).
 Installation is easiest using the Eclipse installer.
 Just choose the one for your operating system from the page.
 
-For more detailed instructions for setting up the development environment, see <<dummy/../../framework/installing/installing-eclipse#installing.eclipse,"Installing Eclipse IDE">>.
+For more detailed instructions for setting up the development environment, see <<dummy/../../framework/installing/installing-overview#installing.overview,"Installing Development Tools">>.
 
 TIP: Vaadin Designer is compatible with Eclipse Luna (and later) available from link:http://www.eclipse.org/downloads[www.eclipse.org/downloads].
 We recommend choosing __Eclipse IDE for Java EE Developers__.
