@@ -20,7 +20,7 @@ styles by adding the appropriate stylename. You will see the result instantly.
 
 [[figure.designer.theme.valo.stylenames]]
 .Adding Style Names
-image::img/designer-theme-stylenames.png[]
+image::img/designer-theme-stylenames.png[width=80%, scaledwidth=100%]
 
 You can also modify the Valo settings by changing the parameters in your theme
 file (see below for more information about the theme file). See
@@ -55,7 +55,7 @@ names in the StyleName property, then matching to that in CSS/Sass.
 .v-button { ... }
 
 /* Applies to components having the stylename "mybutton" */
-.mybutton { ... } 
+.mybutton { ... }
 
 /* Applies to all "mybutton" components within a "mydialog" layout */
 .mydialog .mybutton { ... }
@@ -72,7 +72,3 @@ prefix all styles with that.
 ----
 .usereditordesign .mybutton { ... }
 ----
-
-
-
-

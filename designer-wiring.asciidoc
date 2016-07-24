@@ -61,7 +61,7 @@ Designer view to create a split view, as illustrated in
 
 [[figure.designer.wiring.declarative.splitview]]
 .Split View with Designer
-image::img/designer-splitview.png[]
+image::img/designer-splitview.png[width=80%, scaledwidth=100%]
 
 In a similar way, you can open your theme file (Sass or CSS) in a split view.
 When you save the file, Designer runs on-the-fly compilation for it and shows
@@ -110,8 +110,3 @@ referencing the companion class (in a composition) or by extending it.
 In many cases, it is best to encapsulate the logic pertaining to a design by
 extending the companion class, and only exposing the API and events as needed.
 It might even make sense to place the designs in package(s) of their own.
-
-
-
-
-

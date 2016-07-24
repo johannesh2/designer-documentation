@@ -73,7 +73,7 @@ without margin or spacing, with margin, and with spacing.
 
 [[figure.designer.designing.starting.spacing]]
 .Effects of Margin and Spacing
-image::img/designer-marginspacing.png[]
+image::img/designer-marginspacing.png[width=70%, scaledwidth=100%]
 
 The __info bar__, illustrated in <<figure.designer.designing.starting.infobar>>,
 lets you quickly toggle between __auto__ sizing and 100%. You can try out the
@@ -82,7 +82,7 @@ and resizing it (add a few components to your layout first).
 
 [[figure.designer.designing.starting.infobar]]
 .Info Bar for Quick Adjustments
-image::img/designer-infobar.png[]
+image::img/designer-infobar.png[width=30%, scaledwidth=50%]
 
 
 [[designer.designing.templates]]
@@ -105,7 +105,7 @@ to the Outline view.
 
 [[figure.designer.designing.palette]]
 .Component Palette (Alternate Layouts)
-image::img/designer-palette.png[]
+image::img/designer-palette.png[width=80%, scaledwidth=100%]
 
 The component palette has a search field, and also two modes: list and tile. In
 the list mode you can see the component name next to the icon, which is
@@ -127,18 +127,18 @@ this is needed for most controls, but not for most layouts.
 
 [[figure.designer.designing.adding.properties]]
 .Property Panel
-image::img/designer-properties.png[]
+image::img/designer-properties.png[width=60%, scaledwidth=80%]
 
 In addition to exporting the named components to Java, you will end up with
 things like [literal]#++saveButton++# and [literal]#++emailField++# in your
 outline, which will help you keep track of your components.
 
-Note the ellipsis ( [guibutton]#...#) button next to most properties - in many
+Note the ellipsis ([guibutton]#...#) button next to most properties - in many
 cases a more helpful editor is presented when you click it.
 
 [[figure.designer.designing.adding.properties.editor]]
 .A Property Editor
-image::img/designer-propertyeditor.png[]
+image::img/designer-propertyeditor.png[width=80%, scaledwidth=100%]
 
 
 [[designer.designing.wrapping]]
@@ -152,7 +152,7 @@ versa). You can achieve this by right-clicking the component in the
 
 [[figure.designer.designing.wrapping]]
 .Wrapping a Component
-image::img/designer-wrapping.png[]
+image::img/designer-wrapping.png[width=50%, scaledwidth=75%]
 
 
 
@@ -182,7 +182,7 @@ preset, such as [guilabel]#Phone# to instantly preview the design on that size.
 
 [[figure.designer.designing.previewing.resize]]
 .Viewport Preset Sizes
-image::img/designer-resizing.png[]
+image::img/designer-resizing.png[width=40%, scaledwidth=60%]
 
 You can also add your own presets - for instance known portlet or dashboard tile
 sizes, or other specific sizes you want to target.
@@ -214,7 +214,7 @@ shows the design as-is; the browser is the viewport.
 
 [[figure.designer.designing.previewing.external]]
 .External Preview
-image::img/designer-preview-external.png[]
+image::img/designer-preview-external.png[width=70%, scaledwidth=100%]
 
 External preview allows multiple browsers and devices to be connected at once,
 and they are all updated live as you change the design in Eclipse. There is an
@@ -222,13 +222,8 @@ indicator in the toolbar when the design is viewed externally.
 
 [[figure.designer.designing.previewing.external.indicator]]
 .Indicator for External Preview
-image::img/designer-preview-external-indicator.png[]
+image::img/designer-preview-external-indicator.png[width=40%, scaledwidth=50%]
 
 This is an awesome way to instantly preview results on multiple devices and
 browsers, or to show off a design and collaborate on it - for instance in a
 meeting setting.
-
-
-
-
-
