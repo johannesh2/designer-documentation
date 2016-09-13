@@ -36,7 +36,7 @@ See the <<designer.installing.plugin.quick>>.
 
 The following short video shows you how to install Vaadin Designer and how to create your first new design.
 
-video::UPslNDDNfbs[youtube, width="640", height="360"]
+video::cnsak2OUfiQ[youtube, width="640", height="360"]
 endif::web[]
 
 === Step-by-Step Installation Instructions
