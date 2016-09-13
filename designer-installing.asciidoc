@@ -31,8 +31,7 @@ Eclipse Luna versions prior to the SR2 version had a nasty bug that will cause p
 == Installing Vaadin Designer
 
 ifdef::web[]
-TIP: If you are familiar with Eclipse and installing plugins for it.
-See the <<designer.installing.plugin.quick>>.
+TIP: If you are familiar with Eclipse and installing plugins for it, see the <<designer.installing.plugin.quick>>.
 
 The following short video shows you how to install Vaadin Designer and how to create your first new design.
 
@@ -85,7 +84,7 @@ ifdef::web[]
 
 If you followed the previous step-by-step instructions, you can skip the following.
 
-. Choose "Help > Install New Software...""
+. Choose "Help > Install New Software..."
 . Choose `https://vaadin.com/eclipse` from the dropdown or add it as a new repository if needed.
 . Make sure you select both [guilabel]#Vaadin Plug-in for Eclipse# and [guilabel]#Vaadin Designer for Eclipse#.
 . Click [guibutton]#Next# a few times when prompted, accept the terms, and click [guibutton]#Finish#.
