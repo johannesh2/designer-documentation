@@ -15,7 +15,7 @@ confidence.
 
 [[figure.designer.overview]]
 .Vaadin Designer Views
-image::img/designer-overview.png[]
+image::img/designer-overview.png[width=80%, scaledwidth=100%]
 
 Vaadin Designer is used to create two things:
 
@@ -36,6 +36,3 @@ change its variable name, you will get a compile-time error.
 
 A design can be the whole UI or (more commonly) a smaller part of the UI, such
 as a view or its sub-component. A UI or view can contain many designs.
-
-
-
